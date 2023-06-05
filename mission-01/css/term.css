@@ -1,0 +1,43 @@
+aside{
+  font-size: 12px;
+  padding: 5px 16px;
+  box-sizing: border-box;
+  width: 250px;
+  /* background: #A3A3A3; */
+  background: linear-gradient(#c3c3c3, #f3f3f3);
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+}
+h2{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+dt{
+  color: #296897;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+dd{
+  margin: 0;
+}
+
+.text{
+  width: 145px;
+  line-height: 1.7;
+
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.term{
+  display: flow-root;
+  margin-top: 12px;
+}
