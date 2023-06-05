@@ -3,11 +3,11 @@ aside{
   padding: 5px 16px;
   box-sizing: border-box;
   width: 250px;
-  /* background: #A3A3A3; */
   background: linear-gradient(#c3c3c3, #f3f3f3);
   border: 1px solid #b3b3b3;
   border-radius: 5px;
 }
+
 h2{
   font-size: 15px;
   font-weight: 600;
