@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+*{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.a11yHidden,
+legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.loginShadow{
+  background: #AAAAAA;
+  width: 244px;
+  height: 161px;
+  border-radius: 5px;
+  position: relative;
+  margin: 100px 50px;
+}
+
+.innerContainer{
+  background: linear-gradient(#ED552F, #E8852E);
+  width: 244px;
+  height: 161px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  position: absolute;
+  right: 5px;bottom: 5px;
+}
+
+h2{
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #FFFF00;
+}
+
+.loginGroup{
+  background: #fff;
+  width: 220px;
+  height: 105px;
+  border-radius: 5px;
+  padding-top: 8px;
+  position: relative;
+}
+
+.login{
+  font-size: 14px;
+}
+
+.login span{
+  display: block;
+}
+
+label{
+  width: 55px;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+input{
+  padding: 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  width: 90px;
+  height: 24px;
+  margin-bottom: 4px;
+  text-indent: 8px;
+}
+
+button{
+  width: 50px;
+  height: 53px;
+  border: none;
+  background: #ED552F;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.join_Find{
+  width: 200px;
+  margin: auto;
+  border-top: 1px solid #CCCCCC;
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.join_Find span:nth-child(2){
+  float: right;
+}
+
+.join_Find a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+  line-height: 28px;
+}
+
+.join_Find a i{
+  color: #ED552F;
+  font-weight:600;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
